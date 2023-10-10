@@ -117,7 +117,9 @@ a{
 /* --------- LEFT SIDEBAR --------- */
 .left-sidebar{
     flex-basis: 25%;
-    align-self: flex-end;
+    align-self: flex-start;
+    position: sticky;
+    top: 73px;
 }
 .sidebar-profile-box{
     background: #fff ;
@@ -215,6 +217,8 @@ a{
 .right-sidebar{
     flex-basis: 25%;
     align-self: flex-start;
+    position: sticky;
+    top: 73px;
 }
 .sidebar-news{
     background: #fff;
@@ -412,4 +416,97 @@ a{
 .post-author small{
     display: block;
     margin-bottom: -2px;
+}
+.post p{
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.post-stats{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 6px;
+}
+.post-stats div{
+    display: flex;
+    align-items: center;
+}
+.post-stats img{
+    width: 15px;
+    margin-right: -5px;
+}
+.liked-users{
+    margin-left: 10px;
+}
+.post-activity{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    font-size: 14px;
+    font-weight: 500;
+}
+.post-activity div{
+    display: flex;
+    align-items: center;
+}
+.post-activity-user-icon{
+    width: 22px;
+    border-radius: 50%;
+}
+.post-activity-arrow-icon{
+    width: 12px;
+    margin-left: 5px;
+}
+.post-activity-link img{
+    width: 18px;
+    margin-right: 8px;
+}
+
+
+
+/* ---------   PROFILE DROP DOWN MENU   --------- */
+
+.profile-menu-wrap{
+    position: absolute;
+    top: 100%;
+    right: 5%;
+    width: 320px;
+}
+
+.profile-menu{
+    background: #222;
+    color: #fff;
+    padding: 20px;
+    margin: 10px;
+}
+.user-info{
+    display: flex;
+    align-items: center;
+}
+
+.user-info img{
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.user-info h3{
+    font-weight: 500;
+    margin-bottom: -7px;
+}
+.user-info a{
+    color: #c9dbf8;
+    font-size: 13px ;
+
+}
+.profile-menu hr{
+    border: 0;
+    height: 1px;
+    width: 100%;
+    background: #fff;
+    margin: 15px 0 10px;
 }
