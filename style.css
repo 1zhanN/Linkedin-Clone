@@ -475,6 +475,13 @@ a{
     top: 100%;
     right: 5%;
     width: 320px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s;
+}
+.profile-menu-wrap.open-menu{
+    max-height: 400px;
+
 }
 
 .profile-menu{
@@ -514,5 +521,15 @@ a{
     display: flex;
     align-items: center;
     color: #fff;
+    margin: 12px 0;
+    font-size: 14px;
      
+}
+.profile-menu-link p{
+    width: 100%;
+}
+.profile-menu-link img{
+    width: 35px;
+    border-radius: 50%;
+    margin-right: 15px;
 }
