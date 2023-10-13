@@ -1,6 +1,6 @@
-# LinkedIn Clone
+# LinkedIn Clone (Landing Page)
 
-This is a complete responsive website clone of LinkedIn made using HTML, CSS, and JavaScript. It's a front-end website design project that replicates the appearance and some of the core features of the popular professional networking platform, LinkedIn.
+This is a complete responsive website clone of LinkedIn made using HTML, CSS, and JavaScript. It's a front-end website design project that replicates the appearance of the popular professional networking platform, LinkedIn.
 
 ## Live Demo
 
@@ -8,13 +8,13 @@ You can access the live version of this project [here](https://linkedincloneby1z
 
 ## Project Overview
 
-This LinkedIn Clone project is created using HTML, CSS, and JavaScript. It mimics the appearance and some of the key features of LinkedIn, including:
+This LinkedIn Clone project is created using HTML, CSS, and JavaScript. It mimics the appearance of LinkedIn, including:
 
 ### Home Page
 
 - The home page provides a news feed where users can share posts and updates with their network.
 - Users can interact with posts by liking, commenting, and sharing.
-- The news feed displays recent posts and updates from connections.
+- The news feed displays posts.
 
 ### Profile Page
 
@@ -25,8 +25,9 @@ This LinkedIn Clone project is created using HTML, CSS, and JavaScript. It mimic
 ### Dropdown Menu
 
 - Clicking on the profile picture at the top right corner of the page opens a dropdown menu.
-- The dropdown menu provides options for user account management, including signing out.
+- The dropdown menu provides options for user account management.
 - It also includes a direct link to the user's profile page.
 
-#Courtesy
+## Courtesy
+<https://www.youtube.com/watch?v=0ihPVIrf_Dw&ab_channel=GreatStack>
 
