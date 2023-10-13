@@ -28,6 +28,8 @@ This LinkedIn Clone project is created using HTML, CSS, and JavaScript. It mimic
 - The dropdown menu provides options for user account management.
 - It also includes a direct link to the user's profile page.
 
+![LinkedIn Clone Screenshot](images/iteration.png)
+
 ## Courtesy
 <https://www.youtube.com/watch?v=0ihPVIrf_Dw&ab_channel=GreatStack>
 
