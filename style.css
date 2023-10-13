@@ -34,6 +34,9 @@ a{
     display: inline-block;
     list-style: none;
 }
+.navbar-center ul li a img{
+    width: 40px;
+}
 .navbar-center ul li a{
     display: flex;
     align-items: center;
