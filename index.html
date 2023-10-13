@@ -41,7 +41,7 @@
                 <img src="images/user-1.png">
                 <div>
                     <h3>Rayan Walton</h3>
-                    <a href="#">See your profile</a>
+                    <a href="profile.html">See your profile</a>
                 </div>
             </div>
             <hr>
@@ -99,7 +99,7 @@
                 <a href="#"><img src="images/premium.png">Try Premium</a>
             </div>
         </div>
-        <div class="sidebar-activity">
+        <div class="sidebar-activity" id="sidebarActivity">
             <h3>RECENT</h3>
             <a href="#"> <img src="images/recent.png">Web Development</a>
             <a href="#"> <img src="images/recent.png">User Interface</a>
@@ -119,8 +119,9 @@
             <div class="discover-more-link">
                 <a href="#">Discover More</a>
             </div>
-
         </div>
+        <p id="showMoreLink" onclick="toggleActivity()">Show more <b>+</b></p>
+
     </div>
     <!-- --------- MAIN CONTENT ---------  -->
     <div class="main-content">
@@ -391,12 +392,34 @@
 </div>
 
 <script>
+  
     let profileMenu = document.getElementById("profileMenu");
 
 
     function toggleMenu(){
         profileMenu.classList.toggle("open-menu");
     }
+
+
 </script>
+
+    
+<script>
+    let sideActivity = document.getElementById("sidebarActivity")
+    let MoreLink = document.getElementById("showMoreLink")
+
+    function toggleActivity(){
+        sideActivity.classList.toggle("open-activity");
+
+        if(sideActivity.classList.contains("open-activity")){
+            MoreLink.innerHTML = "Show less <b>-</b>"
+        }
+        else{
+            MoreLink.innerHTML = "Show more <b>+</b>"
+        }
+    }
+</script>
+
+
 </body>
 </html>
